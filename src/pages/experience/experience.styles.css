@@ -1,0 +1,45 @@
+.img-resize {
+  width: 10em;
+}
+
+.style {
+  font-size: 20px;
+}
+
+.jumbo-style1 {
+  background-image: linear-gradient(-225deg, #dd9595 0%, #6b8dd6 48%, #8e37d7 100%);
+}
+
+.jumbo-style2 {
+  background-image: linear-gradient(-225deg, #41ddae 0%, #2158ce 48%, #830de4c7 100%);
+}
+
+/* .button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+} */
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04bbf8;
+}
+
+.button1:hover {
+  background-color: #04abf8;
+  color: rgb(255, 255, 255);
+}
+
+/* .body-title-style {
+  font-size: 25px;
+  font-weight: 800;
+} */
