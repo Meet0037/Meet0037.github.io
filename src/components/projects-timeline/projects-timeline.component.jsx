@@ -5,6 +5,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 import L_FaceMaskDetection from "../../assets/img/projects/facemaskdetection.jpg";
 import L_PythonMiniProjects from "../../assets/img/projects/pythonminiprojects.jpg";
 import L_SimpleBlog from "../../assets/img/projects/simpleblog.png";
+import L_LoginSystem from "../../assets/img/projects/loginsystem.png"
 
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -12,6 +13,7 @@ import Card from "react-bootstrap/Card";
 // skills
 import L_PYTHON from "../../assets/img/skills/python.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
+import L_PHP from "../../assets/img/skills/phplogo.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
@@ -111,9 +113,9 @@ const TimeLine = () => {
         </ImageEvent>
 
 
-          {/* Project: Python mini projects */}
+           {/* Project: Python mini projects  */}
         <ImageEvent
-            date="3/12/20"
+            date="03/12/20"
             className="text-center"
             text="Python mini projects"
             src={L_PythonMiniProjects}
@@ -265,6 +267,70 @@ const TimeLine = () => {
                   See Live
                 </UrlButton>
 
+              </div>
+            </div>
+        </ImageEvent>
+
+
+        {/* Project: SMS verification system  */}
+        <ImageEvent
+            date="05/04/21"
+            className="text-center"
+            text="Login and registration system using PHP"
+            src={L_LoginSystem}
+            alt="Login and registration system using PHP"
+          >
+            <div className="d-flex justify-content-between flex-column mt-2">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> SMS and Email verification,
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Register yourself</li>
+                          <li>Verfiy your email</li>
+                          <li>Verify your phone number using sms</li>
+                          <li>Update your data</li>
+                          <li>Login yourself</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_PHP}
+                                alt="PHP"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div>
+                <UrlButton
+                  className="urlbutton"
+                  href="https://github.com/Meet0037/PythonMiniProjects"
+                  target="_blank"
+                >
+                  Source Code
+                </UrlButton>
               </div>
             </div>
         </ImageEvent>
