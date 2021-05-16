@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-
+<!-- <<<<<<< HEAD
 
 ## Available Scripts
 
@@ -69,4 +68,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 =======
 # meet0037.github.io
->>>>>>> cf7eb0b3e921c4d7e17c632f14df12b554ab63a5
+>>>>>>> cf7eb0b3e921c4d7e17c632f14df12b554ab63a5 -->
+
+
+This is my portfolio..
