@@ -98,12 +98,19 @@ export const skills = {
   ],
 
   backend: [
+
     /*{
+=======
+    {
+
       link: "https://www.php.net/",
       imgAltText: "PHP",
       imgSrc: L_PHP,
       skillName: "PHP",
     },*/
+
+  
+
     /*{
       link: "https://nodejs.org/en/",
       imgAltText: "Node.js",
@@ -134,6 +141,7 @@ export const skills = {
       imgSrc: L_PYTHON,
       skillName: "Python",
     },
+
     {
       link: "https://www.python.org/",
       imgAltText: "NodeJS",
